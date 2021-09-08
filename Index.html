@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hambuger WR</title>
+</head>
+
+<body background="./img/marfrig.jpg">
+    <header>
+        <ul class='menu'>
+            <li>a1</li>
+            <li>a2</li>
+            <li>a3</li>
+        </ul>
+    </header>
+
+    <div class='banner'>
+        <img>
+        <h1>Hambuguer WR</h1>
+    </div>
+
+    <div class="promocoes">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Nome</th>
+                    <th>Preco</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="./img/logo (1).png" ></td>
+                    <td><p>hambuguer1</p></td>
+                    <td><p>10,99</p></td>
+                </tr>
+                <tr>
+                    <td><img src="./img/logo (1).png" ></td>
+                    
+                    <td><p>hambuguer2</p></td>
+                    <td><p>23,11</p></td>
+                </tr>
+                <tr>
+                    <td><img src="./img/logo (1).png" ></td>
+                    
+                    <td><p>hambuguer3</p></td>
+                    <td><p>14,88</p></td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </div>
+
+
+
+
+
+    <footer>
+        <div id="footer">
+            <p>Hambuguer WR &copy; 2021</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #dddddd;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr td p{
+        font-size: 30px;
+    }
+
+
+    .banner {
+        background-image: url('/img/burger.jpg');
+        background-position: 0 -250px;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .banner h1 {
+
+        color: #FFF;
+        text-align: center;
+        font-size: 60px;
+        background-color: #222;
+        padding: 20px 40px;
+
+    }
+
+    .menu {
+        background-color: #222;
+        border-bottom: 4px solid #111;
+        padding: 15px 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .menu li {
+        color: #FCBA03;
+        list-style: none;
+        margin: 12px;
+        transition: .5s;
+    }
+
+    #footer {
+        height: 200px;
+        background-color: #222;
+        border-top: 4px solid #111;
+        color: #fcba03;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
